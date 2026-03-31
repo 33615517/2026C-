@@ -1,0 +1,6 @@
+﻿  add.cpp
+  string.cpp
+C:\code\2026-c\test.3.31\test.3.31\add.cpp(14,2): error C2653: “bit”: 不是类或命名空间名称
+C:\code\2026-c\test.3.31\test.3.31\add.cpp(15,2): error C2653: “bit”: 不是类或命名空间名称
+C:\code\2026-c\test.3.31\test.3.31\add.cpp(42,2): error C2653: “bit”: 不是类或命名空间名称
+  正在生成代码...
