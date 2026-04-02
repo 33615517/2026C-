@@ -1,0 +1,5 @@
+﻿  test.cpp
+C:\code\2026-c\test.4.2\test.4.2\test.cpp(10,18): warning C4244: “初始化”: 从“double”转换到“ll”，可能丢失数据
+C:\code\2026-c\test.4.2\test.4.2\test.cpp(17,25): warning C4244: “=”: 从“double”转换到“ll”，可能丢失数据
+C:\code\2026-c\test.4.2\test.4.2\test.cpp(26,9): warning C4244: “初始化”: 从“double”转换到“ll”，可能丢失数据
+C:\code\2026-c\test.4.2\test.4.2\test.cpp(32,26): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

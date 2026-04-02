@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\code\\2026-c\\test4.01\\",
+  "WorkspaceRootPath": "C:\\code\\2026C-\\test4.01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65CADBA4-47AE-449C-A7A1-C7A4490C108B}|test4.01\\test4.01.vcxproj|C:\\code\\2026-c\\test4.01\\test4.01\\string.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{65CADBA4-47AE-449C-A7A1-C7A4490C108B}|test4.01\\test4.01.vcxproj|C:\\code\\2026C-\\test4.01\\test4.01\\string.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{65CADBA4-47AE-449C-A7A1-C7A4490C108B}|test4.01\\test4.01.vcxproj|solutionrelative:test4.01\\string.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65CADBA4-47AE-449C-A7A1-C7A4490C108B}|test4.01\\test4.01.vcxproj|C:\\code\\2026-c\\test4.01\\test4.01\\string.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{65CADBA4-47AE-449C-A7A1-C7A4490C108B}|test4.01\\test4.01.vcxproj|C:\\code\\2026C-\\test4.01\\test4.01\\string.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{65CADBA4-47AE-449C-A7A1-C7A4490C108B}|test4.01\\test4.01.vcxproj|solutionrelative:test4.01\\string.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65CADBA4-47AE-449C-A7A1-C7A4490C108B}|test4.01\\test4.01.vcxproj|C:\\code\\2026-c\\test4.01\\test4.01\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{65CADBA4-47AE-449C-A7A1-C7A4490C108B}|test4.01\\test4.01.vcxproj|C:\\code\\2026C-\\test4.01\\test4.01\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{65CADBA4-47AE-449C-A7A1-C7A4490C108B}|test4.01\\test4.01.vcxproj|solutionrelative:test4.01\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -40,24 +40,23 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "string.cpp",
-              "DocumentMoniker": "C:\\code\\2026-c\\test4.01\\test4.01\\string.cpp",
+              "DocumentMoniker": "C:\\code\\2026C-\\test4.01\\test4.01\\string.cpp",
               "RelativeDocumentMoniker": "test4.01\\string.cpp",
-              "ToolTip": "C:\\code\\2026-c\\test4.01\\test4.01\\string.cpp",
+              "ToolTip": "C:\\code\\2026C-\\test4.01\\test4.01\\string.cpp",
               "RelativeToolTip": "test4.01\\string.cpp",
               "ViewState": "AgIAAFoAAAAAAAAAAAAIwBYBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-01T09:10:58.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T09:10:58.071Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "string.h",
-              "DocumentMoniker": "C:\\code\\2026-c\\test4.01\\test4.01\\string.h",
+              "DocumentMoniker": "C:\\code\\2026C-\\test4.01\\test4.01\\string.h",
               "RelativeDocumentMoniker": "test4.01\\string.h",
-              "ToolTip": "C:\\code\\2026-c\\test4.01\\test4.01\\string.h",
+              "ToolTip": "C:\\code\\2026C-\\test4.01\\test4.01\\string.h",
               "RelativeToolTip": "test4.01\\string.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-04-01T09:10:47.445Z",
               "EditorCaption": ""
@@ -66,14 +65,13 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "test.cpp",
-              "DocumentMoniker": "C:\\code\\2026-c\\test4.01\\test4.01\\test.cpp",
+              "DocumentMoniker": "C:\\code\\2026C-\\test4.01\\test4.01\\test.cpp",
               "RelativeDocumentMoniker": "test4.01\\test.cpp",
-              "ToolTip": "C:\\code\\2026-c\\test4.01\\test4.01\\test.cpp",
+              "ToolTip": "C:\\code\\2026C-\\test4.01\\test4.01\\test.cpp",
               "RelativeToolTip": "test4.01\\test.cpp",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAACUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-01T09:10:34.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T09:10:34.992Z"
             }
           ]
         }

@@ -1,0 +1,4 @@
+﻿  add.cpp
+C:\code\2026C-\Project1\Project1\add.cpp(5,19): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\code\2026C-\Project1\Project1\add.cpp(18,13): warning C4244: “初始化”: 从“double”转换到“ll”，可能丢失数据
+  Project1.vcxproj -> C:\code\2026C-\Project1\x64\Debug\Project1.exe
