@@ -3,6 +3,8 @@
 #include<vector>
 #include <cassert>
 #include <algorithm>
+#include <list>
+#include <string>
 //using namespace std;
 namespace bit
 {
@@ -27,6 +29,28 @@ namespace bit
 		const_iterator end()const
 		{
 			return _finish;
+		}
+		vector(size_t n, const T& val = T()) :
+			_start(nullptr),
+			_finish(nullptr),
+			_end_of_storage(nullptr)
+		{
+			reserve(n);
+			for (size_t i = 0; i < n; ++i)
+			{
+				push_back(val);
+			}
+		}
+		vector(int n, const T& val = T()) :
+			_start(nullptr),
+			_finish(nullptr),
+			_end_of_storage(nullptr)
+		{
+			reserve(n);
+			for (int i = 0; i < n; ++i)
+			{
+				push_back(val);
+			}
 		}
 		/*vector() :
 			_start(nullptr),
@@ -56,6 +80,44 @@ namespace bit
 			{
 				push_back(e);
 			}
+		}
+		template <class InputIterator>
+		vector(InputIterator first, InputIterator last)
+		{
+			while (first != last)
+			{
+				push_back(*first);
+				++first;
+			}
+		}
+		void clear()
+		{
+			_finish = _start;
+
+		}
+	/*	vector<T>& operator=(const vector<T>& v)
+		{
+			if (this != &v)
+			{
+				clear();
+				reserve(v.capacity());
+				for (auto& e : v)
+				{
+					push_back(e);
+				}
+			}
+			return *this;
+		}*/
+		void swap(vector<T>& v)
+		{
+			std::swap(_start, v._start);
+			std::swap(_finish, v._finish);
+			std::swap(_end_of_storage, v._end_of_storage);
+		}
+		vector<T>& operator=(vector<T> v)
+		{
+			swap(v);
+			return *this;
 		}
 		~vector()
 		{
@@ -274,5 +336,56 @@ namespace bit
 		print_vector(v);
 		vector<int>v1 = v;
 		print_vector(v1);
+		vector<int>v3;
+		v3.push_back(10);
+		v3.push_back(20);
+		v3.push_back(30);
+		v1 = v3;
+		print_vector(v1);
+	}
+	void test_vector6()
+	{
+		vector<int>v;
+		v.push_back(1);
+		v.push_back(2);
+		v.push_back(3);
+		v.push_back(4);
+		print_vector(v);
+		//vector<int>v1(v.begin()+1, v.end()-1);
+		//print_vector(v1);
+		std::list<int>p1;
+		p1.push_back(10);
+		p1.push_back(10);
+		p1.push_back(10);
+		p1.push_back(10);
+		p1.push_back(10);
+		vector<int>v1(p1.begin(), p1.end());
+		print_vector(v1);
+		vector<std::string>v3(10, "11110");
+		print_vector(v3);
+		vector<int>v4(10);
+		print_vector(v4);
+		vector<int>v5(10,1);
+		print_vector(v5);
+	}
+	void test_vector7()
+	{
+		vector<std::string>v;
+		v.push_back("1111111111111111111111111111111");
+		v.push_back("1111111111111111111111111111111");
+		v.push_back("1111111111111111111111111111111");
+		v.push_back("1111111111111111111111111111111");
+		v.push_back("1111111111111111111111111111111");
+		print_vector(v);
+		v.push_back("1111111111111111111111111111111");
+		print_vector(v);
+		v.push_back("1111111111111111111111111111111");
+		print_vector(v);
+		v.push_back("1111111111111111111111111111111");
+		print_vector(v);
+		v.push_back("1111111111111111111111111111111");
+		print_vector(v);
+		v.push_back("1111111111111111111111111111111");
+		print_vector(v);
 	}
 }

@@ -3,6 +3,6 @@
 int main()
 {
 	//bit::test_vector1();
-	bit::test_vector5();
+	bit::test_vector7();
 	return 0;
 }
