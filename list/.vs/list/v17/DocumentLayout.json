@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\code\\2026C-\\list\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{818B03C0-3DFD-49D5-AC6B-6A1749857590}|list\\list.vcxproj|C:\\code\\2026C-\\list\\list\\list.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{818B03C0-3DFD-49D5-AC6B-6A1749857590}|list\\list.vcxproj|solutionrelative:list\\list.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{818B03C0-3DFD-49D5-AC6B-6A1749857590}|list\\list.vcxproj|C:\\code\\2026C-\\list\\list\\add.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{818B03C0-3DFD-49D5-AC6B-6A1749857590}|list\\list.vcxproj|solutionrelative:list\\add.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -14,8 +18,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 284,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "list.h",
+              "DocumentMoniker": "C:\\code\\2026C-\\list\\list\\list.h",
+              "RelativeDocumentMoniker": "list\\list.h",
+              "ToolTip": "C:\\code\\2026C-\\list\\list\\list.h",
+              "RelativeToolTip": "list\\list.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-05T08:05:18.843Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:283709:0:{1a46fd64-28d5-0019-8eb3-17a02d419b53}"
@@ -30,13 +48,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "add.cpp",
               "DocumentMoniker": "C:\\code\\2026C-\\list\\list\\add.cpp",
               "RelativeDocumentMoniker": "list\\add.cpp",
               "ToolTip": "C:\\code\\2026C-\\list\\list\\add.cpp",
               "RelativeToolTip": "list\\add.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAEkAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAkwJ0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-04T02:41:33.675Z",
               "EditorCaption": ""

@@ -2,6 +2,7 @@
 #include<iostream>
 #include<list>
 #include<algorithm>
+#include"list.h"
 using namespace std;
 void test_list1()
 {
@@ -108,9 +109,52 @@ void test_list3()
 	}
 	cout << endl;
 }
+void test_list6()
+{
+	std::list<int>mylist1, mylist2;
+	std::list<int>::iterator it;
+	for (int i = 1; i <= 4; i++)mylist1.push_back(i);
+	for (int i = 1; i <= 3; i++)mylist2.push_back(i * 10);
+	it = mylist1.begin();
+	++it;
+	mylist1.splice(it, mylist2);
+	for (auto e : mylist1)
+	{
+		cout << e << " ";
+	}
+	for (auto v : mylist2)
+	{
+		cout << v << " ";
+	}
+	cout << endl;
+	list<int>lt;
+	lt.push_back(1);
+	lt.push_back(2);
+	lt.push_back(3);
+	lt.push_back(4);
+	lt.push_back(5);
+	lt.push_back(6);
+	for (auto v : lt)
+	{
+		cout << v << " ";
+	}
+	cout << endl;
+	int x = 0;
+	cin >> x;
+	it = find(lt.begin(), lt.end(), x);
+	if (it != lt.end()&&it!=lt.begin())
+	{
+		lt.splice(lt.begin(), lt, it,lt.end());
+	}
+	for (auto v : lt)
+	{
+		cout << v << " ";
+	}
+	cout << endl;
+}
 int main()
 {
 	//test_list1();
-	test_list3();
+	bit::test_list1();
 	return 0;
 }
