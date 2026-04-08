@@ -155,6 +155,6 @@ void test_list6()
 int main()
 {
 	//test_list1();
-	bit::test_list1();
+	bit::test_list3();
 	return 0;
 }

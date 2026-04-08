@@ -26,9 +26,9 @@
               "Title": "list.h",
               "DocumentMoniker": "C:\\code\\2026C-\\list\\list\\list.h",
               "RelativeDocumentMoniker": "list\\list.h",
-              "ToolTip": "C:\\code\\2026C-\\list\\list\\list.h",
-              "RelativeToolTip": "list\\list.h",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAADAAAAAAAAAA==",
+              "ToolTip": "C:\\code\\2026C-\\list\\list\\list.h*",
+              "RelativeToolTip": "list\\list.h*",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAJwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-04-05T08:05:18.843Z",
               "IsPinned": true,
@@ -54,9 +54,10 @@
               "RelativeDocumentMoniker": "list\\add.cpp",
               "ToolTip": "C:\\code\\2026C-\\list\\list\\add.cpp",
               "RelativeToolTip": "list\\add.cpp",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAkwJ0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAkwJ0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-04T02:41:33.675Z"
+              "WhenOpened": "2026-04-04T02:41:33.675Z",
+              "EditorCaption": ""
             }
           ]
         }
