@@ -137,6 +137,14 @@ namespace bit
 		{
 			empty_init();
 		}
+		list(std::initializer_list<T> il)
+		{
+			empty_init();
+			for (const auto& e : il)
+			{
+				push_back(e);
+			}
+		}
 		void empty_init()
 		{
 			_head = new Node;
@@ -311,5 +319,10 @@ namespace bit
 		list<int>lt3;
 		lt3 = lt1;
 		print_container(lt3);
+	}
+	void test_list4()
+	{
+		list<int>lt1 ({ 1,2,3,4,2,5,6 });
+		print_container(lt1);
 	}
 }
